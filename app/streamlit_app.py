@@ -96,12 +96,15 @@ p, s, acc, txt, txt2 = get_theme(country_name)
 st.markdown(f"""
 <style>
 html, body, [class*="css"] {{ color: {txt}; }}
+
 .stApp {{
     background: linear-gradient(135deg, {p} 0%, {s} 50%, {acc} 100%);
 }}
+
 section[data-testid="stSidebar"] {{
     background: {hex_to_rgba(p, 0.88)};
 }}
+
 .glass-card {{
     background: rgba(255,255,255,0.08);
     border: 1px solid rgba(255,255,255,0.12);
@@ -110,13 +113,18 @@ section[data-testid="stSidebar"] {{
     backdrop-filter: blur(14px);
     margin-bottom: 1.5rem;
 }}
+
 .metric-card {{
     background: rgba(255,255,255,0.08);
     border-radius: 18px;
     padding: 1rem;
     text-align: center;
 }}
-#MainMenu, footer, header {{ visibility: hidden; }}
+
+/* IMPORTANT: KEEP MENU & HEADER VISIBLE */
+header {{ visibility: visible !important; }}
+#MainMenu {{ visibility: visible !important; }}
+
 </style>
 """, unsafe_allow_html=True)
 
