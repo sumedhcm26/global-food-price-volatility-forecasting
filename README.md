@@ -106,13 +106,6 @@ streamlit run app/streamlit_app.py
 
 ---
 
-## Resume Highlights
-
-- Built an end-to-end time-series forecasting ML pipeline
-- Implemented leakage-safe validation strategy
-- Developed recursive 6-month country-level forecasting
-- Deployed interactive Streamlit dashboard
-- Created recruiter-ready GitHub portfolio project
 
 ---
 
