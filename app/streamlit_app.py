@@ -15,15 +15,10 @@ st.set_page_config(
 # COUNTRY FLAG PALETTES
 # ======================================
 COUNTRY_THEMES = {
-    "India": ("#FF9933", "#FFFFFF", "#138808", "#111111", "#115511"),
-    "United States": ("#B22234", "#FFFFFF", "#3C3B6E", "#FFFFFF", "#D1D5DB"),
-    "Brazil": ("#009B3A", "#FFDF00", "#002776", "#FFFFFF", "#D1FAE5"),
-    "China": ("#DE2910", "#FFDE00", "#8B0000", "#FFFFFF", "#FDE68A"),
-    "Japan": ("#FFFFFF", "#BC002D", "#1F2937", "#111111", "#6B7280"),
-    "Germany": ("#000000", "#DD0000", "#FFCE00", "#FFFFFF", "#FDE68A"),
-    "Ukraine": ("#005BBB", "#FFD500", "#005BBB", "#111111", "#1E3A8A"),
-    "Pakistan": ("#01411C", "#FFFFFF", "#01411C", "#FFFFFF", "#BBF7D0"),
-    "default": ("#0D1B2A", "#1B2838", "#4FC3F7", "#FFFFFF", "#B0BEC5")
+    # ── A ──────────────────────────────────────────────────────────────────
+    
+    # ── Fallback ────────────────────────────────────────────────────────────
+    "default":                       ("#0D1B2A", "#1B2838", "#4FC3F7", "#FFFFFF", "#B0BEC5"),
 }
 
 COUNTRY_NAME_MAP = {
